@@ -66,7 +66,7 @@ QuickDraw-Predictor/
 
 ## **4. Important Notes on Usage**
 - **Input Image Preprocessing:**
-  - The model requires input images to be preprocessed to a size of **28x28 pixels**.
+  - The model requires input images to be downsampled to a size of **28x28 pixels**.
   - If the original image size exceeds **512x512 pixels**, the model may struggle to classify certain classes accurately.
   - **The recommended original image size is approximately 320x320 pixels** for optimal performance.
   - Ensure that images are resized appropriately before inference.
