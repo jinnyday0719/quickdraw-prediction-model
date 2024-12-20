@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 from sklearn.model_selection import train_test_split
 
-def load_quickdraw_data(path, num_samples_per_class=5000, img_size=(28, 28)):
+def load_quickdraw_data(path, num_samples_per_class=10000, img_size=(28, 28)):
     classes = sorted(os.listdir(path))
     class_to_idx = {cls: idx for idx, cls in enumerate(classes)}
     X, y = [], []
@@ -24,7 +24,7 @@ def load_quickdraw_data(path, num_samples_per_class=5000, img_size=(28, 28)):
     return X, y, classes
 
 
-data_path = './data'
+data_path = '../data'
 num_samples_per_class = 10000
 X, y, class_names = load_quickdraw_data(data_path, num_samples_per_class=num_samples_per_class)
 
