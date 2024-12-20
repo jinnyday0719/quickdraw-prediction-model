@@ -24,7 +24,7 @@ def load_quickdraw_data(path, num_samples_per_class=5000, img_size=(28, 28)):
     return X, y, classes
 
 
-data_path = './dataset'
+data_path = './data'
 num_samples_per_class = 10000
 X, y, class_names = load_quickdraw_data(data_path, num_samples_per_class=num_samples_per_class)
 
