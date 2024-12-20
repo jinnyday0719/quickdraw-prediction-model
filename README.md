@@ -83,8 +83,10 @@ QuickDraw-Predictor/
 <br>
 
 ## **6. Performance**
-- **Validation Accuracy:** **85.2%**
-- **Test Accuracy:** **84.7%**
+- **Validation Accuracy:** **0.9768**
+- **Validation Loss:** **75.94%**
+- **Test Accuracy:** **0.9769**
+- **Test Loss:** **76.12%**
 
 <br>
 
