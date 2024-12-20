@@ -32,7 +32,7 @@ This project uses the Google Quick, Draw! dataset to classify simple sketches us
     - Horizontal flips
 - **Web Interface:**
   - Built with HTML, CSS, and JavaScript for user-friendly interaction.
-  - Allows users to upload sketches and view classification results.
+  - Allows users to draw sketches directly on the canvas and view classification results.
 
 <br>
 
