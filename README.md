@@ -7,11 +7,13 @@ This project uses the Google Quick, Draw! dataset to classify simple sketches us
 
 [**Live Demo**](http://asj.dothome.co.kr/quickdraw/test)
 
+
 ## **1. Introduction**
 - This project employs a ResNet-based model to classify sketches from the Kaggle Quick, Draw! dataset.
 - The dataset consists of `.npy` files, where each image is a grayscale sketch with a size of **28x28 pixels**.
 - Various **data augmentation techniques** have been applied during training to improve model performance.
 - The trained Keras model is converted to TensorFlow.js for seamless usage in a web environment.
+
 
 ## **2. Key Features**
 - **Residual Network (ResNet):**
@@ -30,6 +32,7 @@ This project uses the Google Quick, Draw! dataset to classify simple sketches us
 - **Web Interface:**
   - Built with HTML, CSS, and JavaScript for user-friendly interaction.
   - Allows users to upload sketches and view classification results.
+
 
 ## **3. Project Structure**
 
@@ -57,12 +60,14 @@ QuickDraw-Predictor/
 └── LICENSE            # License file
 ```
 
+
 ## **4. Important Notes on Usage**
 - **Input Image Preprocessing:**
   - The model requires input images to be preprocessed to a size of **28x28 pixels**.
   - If the original image size exceeds **512x512 pixels**, the model may struggle to classify certain classes accurately.
   - **The recommended original image size is approximately 320x320 pixels** for optimal performance.
   - Ensure that images are resized appropriately before inference.
+
 
 ## **5. Dataset**
 - **Source:** [Kaggle QuickDraw `.npy` Dataset](https://www.kaggle.com/datasets/drbeane/quickdraw-np)
@@ -71,14 +76,17 @@ QuickDraw-Predictor/
   - This project uses a subset of **10,000 samples per class**, totaling approximately **3.45 million images**.
 - **Image Size:** All sketches are provided in **28x28 pixels**, grayscale format.
 
+
 ## **6. Performance**
 - **Validation Accuracy:** **85.2%**
 - **Test Accuracy:** **84.7%**
+
 
 ## **7. License**
 - **Code:** MIT License  
 - **Dataset:** Refer to the [Kaggle dataset page](https://www.kaggle.com/datasets/drbeane/quickdraw-np) for licensing information.  
 - **Libraries:** TensorFlow/Keras (Apache 2.0 License)
+
 
 ## **8. Acknowledgments**
 - **Dataset:** [Kaggle QuickDraw `.npy` Dataset](https://www.kaggle.com/datasets/drbeane/quickdraw-np)  
