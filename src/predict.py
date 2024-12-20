@@ -29,9 +29,9 @@ def predict_image(image_path, model_path, class_names_path):
     predicted_class_name = class_names[predicted_class_index]
     return predicted_class_name
 
-image_path = 'test.png'
-model_path = 'resnet_quickdraw_model.h5'
-class_names_path = 'class.json'
+image_path = './test.png'
+model_path = '../model/resnet_quickdraw_model.h5'
+class_names_path = '../model/class.json'
 
 predicted_class = predict_image(image_path, model_path, class_names_path)
 print(f"Predicted Class: {predicted_class}")
