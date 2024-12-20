@@ -13,7 +13,7 @@ This project uses the Google Quick, Draw! dataset to classify simple sketches us
 - The dataset consists of `.npy` files, where each image is a grayscale sketch with a size of **28x28 pixels**.
 - Various **data augmentation techniques** have been applied during training to improve model performance.
 - The trained Keras model is converted to TensorFlow.js for seamless usage in a web environment.
-- 
+
 <br>
 
 ## **2. Key Features**
