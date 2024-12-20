@@ -1,2 +1,3 @@
 # quickdraw-prediction-model
-![Demo](./demo.gif)
+<img src="./demo.gif" alt="Demo" width="600">
+
