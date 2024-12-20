@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Drawing Predictor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.19.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pica/dist/pica.min.js"></script>
+</head>
+<body>
+    <h1>AI Drawing Predictor</h1>
+    <div class="canvas-container">
+        <canvas id="drawingCanvas" width="384" height="384"></canvas>
+        <button id="clearButton" title="Clear the canvas">Clear</button>
+    </div>
+    <div id="controls">
+        <button id="processButton">Predict</button>
+    </div>
+    <p id="predictionResult">Prediction Result: N/A</p>
+    <canvas id="downsampledCanvas" width="28" height="28"></canvas>
+    <script src="app.js"></script>
+</body>
+</html>
