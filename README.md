@@ -31,7 +31,30 @@ This project uses the Google Quick, Draw! dataset to classify simple sketches us
   - Allows users to upload sketches and view classification results.
 
 ## **3. Project Structure**
-```QuickDraw-Predictor/ │ ├── README.md # Project documentation ├── requirements.txt # Python dependencies ├── data/ # Dataset files (.npy format) │ ├── full_dataset.npz ├── model/ # Trained model and class mapping │ ├── resnet_quickdraw_model.h5 │ ├── class.json # Class name-to-index mapping ├── src/ # Python scripts │ ├── train.py # Model training script │ └── predict.py # Model prediction script ├── web/ # Web application files │ ├── index.html # User interface (HTML) │ ├── styles.css # Styling (CSS) │ ├── app.js # Prediction logic (JavaScript) │ ├── tfjs_model/ # TensorFlow.js model │ ├── model.json │ ├── group1-shard1of1 │ ├── class.json # Class name-to-index mapping └── LICENSE # License file```
+
+```
+QuickDraw-Predictor/
+│
+├── README.md          # Project documentation
+├── requirements.txt   # Python dependencies
+├── data/              # Dataset files (.npy format)
+│   ├── full_dataset.npz
+├── model/             # Trained model and class mapping
+│   ├── resnet_quickdraw_model.h5
+│   ├── class.json     # Class name-to-index mapping
+├── src/               # Python scripts
+│   ├── train.py       # Model training script
+│   └── predict.py     # Model prediction script
+├── web/               # Web application files
+│   ├── index.html     # User interface (HTML)
+│   ├── styles.css     # Styling (CSS)
+│   ├── app.js         # Prediction logic (JavaScript)
+│   ├── tfjs_model/    # TensorFlow.js model
+│       ├── model.json
+│       ├── group1-shard1of1
+│       ├── class.json # Class name-to-index mapping
+└── LICENSE            # License file
+```
 
 ## **4. Important Notes on Usage**
 - **Input Image Preprocessing:**
